@@ -1,0 +1,67 @@
+"Games"
+{
+	"cstrike"
+	{
+		"Signatures"
+		{
+			"::PassServerEntityFilter"
+			{
+				"library"	"server"
+				"linux"		"@_Z22PassServerEntityFilterPK13IHandleEntityS1_"
+			}
+		}
+        "Functions"
+        {
+            "AcceptInput"
+            {
+                "offset"        "AcceptInput"
+                "hooktype"      "entity"
+                "return"        "bool"
+                "this"          "entity"
+                "arguments"
+                {
+                    "szInputName"
+                    {
+                        "type"    "charptr"
+                    }
+                    "pActivator"
+                    {
+                        "type"    "cbaseentity"
+                    }
+                    "pCaller"
+                    {
+                        "type"    "cbaseentity"
+                    }
+                    "value"
+                    {
+                        "type"    "object"
+                        "size"    "20"
+                        "flags"   "byval,odtor,octor,oassignop"
+                    }
+                    "outputID"
+                    {
+                        "type"    "int"
+                    }
+                }
+            }
+            
+            "PassServerEntityFilter"
+            {
+                "signature"     "::PassServerEntityFilter"
+                "callconv"      "cdecl"
+                "return"        "bool"
+                "arguments"
+                {
+                    "pTouch"
+                    {
+                        "type"    "cbaseentity"
+                    }
+                    "pPass"
+                    {
+                        "type"    "cbaseentity"
+                    }
+                }
+            }
+        }
+    }
+}

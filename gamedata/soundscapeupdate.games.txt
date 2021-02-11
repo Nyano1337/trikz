@@ -1,0 +1,33 @@
+"Games"
+{
+	"cstrike"
+	{
+		"Signatures"
+		{
+            "CEnvSoundscape::UpdateForPlayer"
+			{
+				"library"		"server"
+				"linux"			"@_ZN14CEnvSoundscape15UpdateForPlayerER11ss_update_t"
+			}
+		}
+        "Functions"
+        {
+            "CEnvSoundscape__UpdateForPlayer"
+            {
+                "signature"     "CEnvSoundscape::UpdateForPlayer"
+                "callconv"      "thiscall"
+                "return"        "void"
+                "this"          "entity"
+                "arguments"
+                {
+                    "update"
+                    {
+                        "type"    "object"
+                        "size"    "36" //ss_update_t is a struct consisting of 3 int types, a vector, a float, and a bool 3*4+12+4+1
+                        "flags"   "byref"
+                    }
+                }
+            }
+        }
+    }
+}
