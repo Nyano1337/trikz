@@ -1,0 +1,37 @@
+"Sounds"
+{
+	"World Record"
+	{
+		"1"
+		{
+			"Position" "1"
+			"Sound"    "roasted2.mp3"
+		}
+		"2"
+		{
+			"Position" "2"
+			"Sound"    "sugoi.wav"
+		}
+		"3"
+		{
+			"Position" "3"
+			"Sound"    "applause.wav"
+		}
+	}
+	
+	"Personal Record"
+	{
+		"1"
+		{
+			"Sound"    "allahu_akbar1.mp3"
+		}
+	}
+	
+	"No New Time"
+	{
+		"1"
+		{
+			"Sound"    "usuck_louder.mp3"
+		}
+	}
+}
