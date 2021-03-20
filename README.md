@@ -58,8 +58,5 @@ Then add an entry to your addons/sourcemod/configs/databases.cfg as follows:
 
 Remember to configure your own ranks and sounds in the addons/sourcemod/configs/timer folder in place of my own!
 
-CSSFixes.autoload
-outputinfo.autoload
 
 If you need Windows support this is now an option if you are willing to find the required signatures yourself (or pay/convince me to)!
-BB7CCCCF0852FDC9F198650B6A4BAD9A
