@@ -8,7 +8,6 @@
             {
                 "library"	"server"
                 "linux"		"@_Z22PassServerEntityFilterPK13IHandleEntityS1_"
-                "windows"   	"\x55\xB8\x01\x00\x00\x00\x89\xE5\x83\xEC\x38"
             }
         }
         "Functions"
