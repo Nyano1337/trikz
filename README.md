@@ -17,6 +17,7 @@ BotoX's Sourcemod can be found here:
 [https://github.com/BotoX/sourcemod]
 
 ### !!! USE BRANCH 1.11-fork !!!
+https://github.com/Ciallo-Ani/sourcemod
 
 To Build SourceMod follow these instructions replacing the sourcemod repository with BotoX's version:
 [https://wiki.alliedmods.net/Building_SourceMod]
