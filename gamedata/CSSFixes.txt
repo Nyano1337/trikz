@@ -15,6 +15,18 @@
 				"library"	"server"
 				"linux"		"@_ZN11CBaseEntity15PostConstructorEPKc"
 			}
+			
+			"CBaseFilter_PassesFilterImpl"
+			{
+				"library"	"server"
+				"linux"		"@_ZN11CBaseFilter16PassesFilterImplEP11CBaseEntityS1_"
+			}
+
+			"CreateEntityByName"
+			{
+				"library"	"server"
+				"linux"		"@_Z18CreateEntityByNamePKci"
+			}
 
 			"CBasePlayer_FindUseEntity"
 			{
@@ -40,22 +52,16 @@
 				"linux"		"@_ZTV27CTraceFilterSkipTwoEntities"
 			}
 
+			"CTraceFilterSimple"
+			{
+				"library"	"server"
+				"linux"		"@_ZTV18CTraceFilterSimple"
+			}
+
 			"CTraceFilterSkipTwoEntities_CTraceFilterSkipTwoEntities"
 			{
 				"library"	"server"
 				"linux"		"@_ZN27CTraceFilterSkipTwoEntitiesC2EPK13IHandleEntityS2_i"
-			}
-
-			"CTriggerMultiple_MultiWaitOver"
-			{
-				"library"	"server"
-				"linux"		"@_ZN16CTriggerMultiple13MultiWaitOverEv"
-			}
-
-			"Physics_RunThinkFunctions"
-			{
-				"library"	"server"
-				"linux"		"@_Z25Physics_RunThinkFunctionsb"
 			}
 
 			"CBaseEntity_KeyValue"
@@ -68,6 +74,12 @@
 			{
 				"library"	"server"
 				"linux"		"@_Z14FX_FireBulletsiRK6VectorRK6QAngleiiifff"
+			}
+
+			"CKnife_SwingOrStab"
+			{
+				"library"	"server"
+				"linux"		"@_ZN6CKnife11SwingOrStabEb"
 			}
 		}
 	}
